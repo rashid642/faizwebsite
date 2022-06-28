@@ -1,0 +1,321 @@
+@media screen and (max-width:1200px) {
+    /* normal screen size */
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+    }
+
+    ul {
+        margin-left: 30px;
+    }
+
+    ul li {
+        margin-left: 60px;
+    }
+
+    ul li a {
+        font-size: 1.6vw;
+    }
+
+    .search {
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+
+    .srch {
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 80px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h1,
+    .content span {
+        font-size: 4.5vw;
+    }
+
+    .content .para {
+        width: 90%;
+        font-size: 1.5vw;
+    }
+
+    .content .cnt {
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+
+    .content a {
+        font-size: 1.6vw;
+
+    }
+}
+
+@media screen and (max-width:1170px) {
+
+    /* Login Box only */
+    .main {
+        padding-left: 20px;
+        height: 180vh;
+    }
+
+    .form {
+        margin-left: -30px;
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+        position: absolute;
+        top: 420px;
+        left: 50px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+
+    .form input {
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+
+    .btnn a {
+        font-size: 16px;
+    }
+
+    .form .link a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:830px) {
+
+    /* tablet */
+    .content {
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .content h1, .content span {
+    font-size: 6vw;
+    margin: 10px;
+    }
+
+    .content .para {
+        width: 90%;
+        font-size: 1.8vw;
+    }
+
+    .content .cnt {
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+
+    .content a {
+        font-size: 2vw;
+
+    }
+
+    .logo {
+        margin-left: 310px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul {
+        margin-top: -5px;
+        margin-left: 60px;
+    }
+
+    ul li {
+        margin-left: 50px;
+    }
+
+    ul li a {
+        font-size: 3vw;
+    }
+
+    .search {
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+
+    .srch {
+        height: 30px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .btn {
+        font-size: 16px;
+        height: 30px;
+        margin-top: 30px;
+        width: 70px;
+    }
+
+    .main {
+        padding-left: 20px;
+        height: 180vh;
+    }
+    .content .para{
+        font-size: 19px;
+    }
+
+    .form {
+        margin-left: 65px;
+        width: 320px;
+        height: 400px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+        position: absolute;
+        top: 420px;
+        left: 50px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .form h2{
+        width: 300px;
+    }
+    .form input {
+        width: 280px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    .btnn a {
+        font-size: 16px;
+    }
+
+    .form .link a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* Ipad old version */
+
+    .content {
+        margin: 80px;
+        margin-left: 20px;
+    }
+
+    .search {
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+
+    .logo {
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+
+    ul {
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+
+    ul li {
+        margin-left: 50px;
+    }
+
+    ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    /* mobile */
+    .logo {
+        margin-left: 120px;
+        font-size: 8vw;
+    }
+
+    ul {
+        margin-top: -25px;
+    }
+
+    ul li {
+        margin-left: 20px;
+        padding: 2px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .search {
+        margin-top: -40px;
+        margin-left: 55px;
+    }
+
+    .content .para {
+        font-size: 12px;
+    }
+
+    .content .cnt {
+        font-size: 15px;
+        width: -40px;
+        height: -40px;
+        background: #ff7200;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+
+    .form {
+        width: 220px;
+        margin-top: -40px;
+        margin-left: -45px;
+    }
+    .form input{
+        width: 180px;
+    }
+    .content .form h2{
+        width: 220px;
+    }
+    .content .form .btnn{
+        width: 200px;
+    }
+    .content .cnt{
+        height: 30px;
+        width: 60px;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .content .icon{
+        padding: 6px;
+        margin: 5px;
+    }
+}
